@@ -7,3 +7,5 @@ print(requests.__version__)
 response = requests.get('http://google.com/')
 print(response)
 
+response2 = requests.get('https://raw.githubusercontent.com/vhnguyen0707/cmput404_lab/main/lab1.py')
+print(response2.text)
